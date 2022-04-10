@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Website</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button type="button" class="top hide-for-small-only"><a href="#Top">Top</a></button>
+    <!-- main content within a `grid-container` -->
+    <div class="grid-container">
+
+        <!-- `grid-x` represents a row -->
+        <div class="grid-x grid-padding-x" id="#Top">
+        
+            <!--Top introduction text-->
+            <div class="cell large-12" style="background-color:goldenrod"><center><h1>Zak Nilsen</h1></center></div>
+            <!--Headshot-->
+            <div class="cell large-12" style="background-color: #ADD;">
+                <center>
+                <img src="assets/zak.jpg" alt="Headshot photo">
+                </center>
+            </div>
+        </div>
+        <!--Menu Bar-->
+        <div class="grid-x grid-padding-x menu">
+            
+            <div class="small-6 medium-6 large-6 align-right"><a href="./index.html"><u>Home</u></a></div>
+            
+            <div class="small-6 medium-6 large-6"><a href="./resume.html"><u>Resume</u></a></div>
+
+
+        </div>
+        <!--
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            
+            <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+            
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        -->
+        <hr />
+        <br />
+        <br />
+        <div class="grid-x grid-padding-x">
+
+            <div class="cell large-12"><h2>About Me</h2></div>
+            
+            <div class="border">
+                
+                <p> Graduating class of 2022 from the <a href="https://www.stthomas.edu/" target="_blank">University of St. Thomas</a> where I majored in Computer Science.
+                    Spent 3 of my 4 years pursuing Computer Science and a well-rounded education at St. Thomas, and my first year pursuing generals at <a href="https://www.stthomas.edu/" target="_blank">Inver Hills</a> through PSEO.
+                    I am graduating a year early thanks to PSEO where I spent my senior year of high school at community college and am now looking forward to graduating.
+                </p>
+
+            </div>
+            
+        </div>
+
+        <br />
+        <hr />
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-12 inactiveLink"><h2>Contact Information</h2></div>
+                <div class="border">
+                    <ul>
+                        <li><p>University Email: <a href="mailto: nils8354@stthomas.edu">nils8354@stthomas.edu</a></p></li>
+                        <li><p>Personal Email: <a href="mailto: ZakaryNilsen@gmail.com">ZakaryNilsen@gmail.com</a></p></li>
+                        <li><p>Phone: 651-347-5702</p></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <!-- include before closing </body> tag -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+    $(document).foundation();
+</script>
+</body>
+</html>
