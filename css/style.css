@@ -43,6 +43,12 @@ h2 {
     font-size:2rem;
 }
 
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5rem;
+    margin-left: .5em;
+}
+
 .inactiveLink {
     pointer-events:none;
     cursor: default;
@@ -129,3 +135,8 @@ Not-fully working
 .align-right {
     text-align: right;
 }
+
+.align-left {
+    text-align: left;
+}
+
